@@ -1,1 +1,56 @@
 //Shu yerga bizning fontlar keladi!
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/IbarraRealNova-Bold.woff2') format('woff2'), url('../fonts/IbarraRealNova-Bold.woff') format('woff'), url('../fonts/IbarraRealNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/IbarraRealNova-Regular.woff2') format('woff2'), url('../fonts/IbarraRealNova-Regular.woff') format('woff'), url('../fonts/IbarraRealNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla-Bold.woff2') format('woff2'), url('../fonts/Karla-Bold.woff') format('woff'), url('../fonts/Karla-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-Bold.woff2') format('woff2'), url('../fonts/PublicSans-Bold.woff') format('woff'), url('../fonts/PublicSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-SemiBold.woff2') format('woff2'), url('../fonts/PublicSans-SemiBold.woff') format('woff'), url('../fonts/PublicSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-BoldItalic.woff2') format('woff2'), url('../fonts/PublicSans-BoldItalic.woff') format('woff'), url('../fonts/PublicSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('../fonts/PublicSans-Regular.woff2') format('woff2'), url('../fonts/PublicSans-Regular.woff') format('woff'), url('../fonts/PublicSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -341,6 +341,62 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  src: url("../fonts/IbarraRealNova-Bold.woff2") format("woff2"), url("../fonts/IbarraRealNova-Bold.woff") format("woff"), url("../fonts/IbarraRealNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  src: url("../fonts/IbarraRealNova-Regular.woff2") format("woff2"), url("../fonts/IbarraRealNova-Regular.woff") format("woff"), url("../fonts/IbarraRealNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url("../fonts/Karla-Bold.woff2") format("woff2"), url("../fonts/Karla-Bold.woff") format("woff"), url("../fonts/Karla-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff"), url("../fonts/PublicSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url("../fonts/PublicSans-SemiBold.woff2") format("woff2"), url("../fonts/PublicSans-SemiBold.woff") format("woff"), url("../fonts/PublicSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url("../fonts/PublicSans-BoldItalic.woff2") format("woff2"), url("../fonts/PublicSans-BoldItalic.woff") format("woff"), url("../fonts/PublicSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff"), url("../fonts/PublicSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -364,7 +420,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "Arial", sans-serif;
+  font-family: 'Public Sans';
   font-size: 16px;
   line-height: 1.5;
 }
@@ -388,9 +444,64 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1157px;
+  max-width: 1151px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  padding: 64px 0 54px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 60px;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0;
+  margin-left: 42px;
+  padding: 0;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323D;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav__link:hover {
+  color: #5FB4A2;
 }
 
 .main {
