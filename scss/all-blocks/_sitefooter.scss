@@ -1,0 +1,29 @@
+.footer__nav {
+  .nav__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  .nav__item {
+    margin: 0;
+    margin-left: 42px;
+    padding: 0;
+  }
+  .nav__item:first-child {
+    margin-left: 0;
+  }
+  .nav__link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .nav__link:hover {
+    color: #5fb4a2;
+  }
+}
