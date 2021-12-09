@@ -27,3 +27,16 @@
         color: #5FB4A2;
     }
 }
+
+// RESPONSIVE
+@media only screen and (max-width: 650px) {
+    .header {
+        padding: 32px 0 40px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nav {
+        display: none;
+    }
+}
