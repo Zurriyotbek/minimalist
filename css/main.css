@@ -595,4 +595,197 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+
+.hero__container .hero__line {
+  background: #33323d;
+  width: 100%;
+  height: 1px;
+  opacity: 0.15;
+  margin-bottom: 48px;
+}
+
+.hero__container .hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.hero__container .hero__list .hero__item {
+  width: 100%;
+}
+
+.hero__container .hero__list .hero__heading {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+
+.hero__container .hero__list .hero__text {
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.hero__container .hero__list .hero__icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 104px;
+}
+
+.form__container .form__line {
+  background: #33323d;
+  width: 100%;
+  height: 1px;
+  opacity: 0.15;
+  margin: 48px 0;
+}
+
+.form__container .form__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form__container .form__list .form__item {
+  width: 100%;
+}
+
+.form__container .form__list .form__item .form__heading {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+
+.form__container .form__list .form__item .footer__form .form__label {
+  display: block;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.form__container .form__list .form__item .footer__form .form__input {
+  background: #33323d1a;
+  padding: 9px 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.form__container .form__list .form__item .footer__form .form__msg {
+  background: #33323d1a;
+  padding: 9px 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+  resize: none;
+}
+
+.form__container .form__list .form__item .footer__form .form__btn {
+  cursor: pointer;
+  background-color: #203a4c;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 17px 24px;
+  border: none;
+  outline: none;
+  margin: 41px 0 109px;
+}
+
+.footer {
+  background-color: #33323d;
+  padding: 64px 0 54px;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__container .footer__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__container .footer__list .footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  width: 60px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer__logo:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
 /*# sourceMappingURL=main.css.map */

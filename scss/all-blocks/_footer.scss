@@ -1,0 +1,30 @@
+.footer {
+  background-color: #33323d;
+  padding: 64px 0 54px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__list {
+      list-style-type: none;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .footer__icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+  &__logo {
+    width: 60px;
+    transition: all 0.3s;
+  }
+  &__logo:hover {
+    transform: scale(0.9);
+  }
+}
