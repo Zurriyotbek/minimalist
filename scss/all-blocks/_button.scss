@@ -1,0 +1,18 @@
+.button {
+    margin: 0;
+    padding: 17px 34px;
+    background-color: #fff;
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #33323D;
+    color: #fff;
+}
+
+.button:disabled {
+    border: 1px solid rgba(51, 50, 61, 0.2);
+}
