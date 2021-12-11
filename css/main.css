@@ -1525,4 +1525,12 @@ img {
   outline: none;
   margin: 41px 0 109px;
 }
+
+.form__container .form__list .form__item .footer__form .form__btn:hover {
+  opacity: 0.8;
+}
+
+.form__container .form__list .form__item .footer__form .form__btn:active {
+  opacity: 0.6;
+}
 /*# sourceMappingURL=main.css.map */
