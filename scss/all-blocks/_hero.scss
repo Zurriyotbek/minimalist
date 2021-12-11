@@ -1,0 +1,123 @@
+.hero {
+    padding-bottom: 150px;
+}
+
+.hero__wrapper {
+    margin: 0;
+    padding: 0;
+    padding-top: 243px;
+    background-image: url("/images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero__content {
+    margin: 0;
+    padding: 0;
+    padding-top: 56px;
+    padding-right: 55px;
+    width: 445px;
+    background-color: white;
+}
+
+.hero__heading {
+    font-family: Ibarra Real Nova;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+.hero__button {
+    margin: 0;
+    padding: 17px 35px 17px 85px;
+    display: flex;
+    background-color: #203A4C;
+    background-image: url("/images/hero-btn-img.png");
+    color: white;
+    border: none;
+    transition: all 0.2s;
+}
+
+.hero__button:hover {
+    cursor: pointer;
+    background-image: url("/images/hero-btn-img-hover.png");
+}
+
+.hero__button:disabled {
+    background-image: url("/images/hero-btn-img-disabled.png");
+}
+
+// RESPONSIVE TABLET 
+@media only screen and (max-width: 688px) {
+    .hero__wrapper {
+        margin: 0;
+        padding: 0;
+        padding-top: 243px;
+        background-image: url("/images/hero-bg-tablet.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .hero__content {
+        margin: 0;
+        margin-bottom: 53px;
+        padding: 0;
+        padding-top: 56px;
+        padding-right: 55px;
+        width: 80%;
+        background-color: white;
+    }
+    .hero__heading {
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        padding-bottom: 96px;
+    }
+    .hero__content {
+        margin: 0;
+        margin-bottom: 32px;
+        padding: 0;
+        padding-top: 24px;
+        width: 100%;
+    }
+    .hero__wrapper {
+        margin: 0;
+        padding: 0;
+        padding-top: 295px;
+        background-image: url("/images/hero-bg-mobile.png");
+        background-size: contain;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+}
+
+// RETINA IMAGES
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+    /* Retina-specific stuff here */
+    .hero__wrapper {
+        background-image: url("/images/hero-bg@2x.png");
+    }
+    @media only screen and (max-width: 688px) {
+        .hero__wrapper {
+            background-image: url("/images/hero-bg-tablet@2x.png");
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .hero__wrapper {
+            background-image: url("/images/hero-bg-mobile@2x.png");
+        }
+    }
+}

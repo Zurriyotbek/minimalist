@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalist</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="./index.html" class="header__logo">
+                <img src="./images/header-logo.svg" alt="" class="header__logo-img" />
+            </a>
+
+            <nav class="nav header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./partfollio.index.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./forum.html">CONTACT ME</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="hamburger-btn"></button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HERO -->
+
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__heading">
+                            Hey, I’m Alex Spencer and I love building beautiful websites
+                        </h1>
+                        <button class="hero__button">ABOUT ME</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT  -->
+
+        <section class="about">
+            <div class="container about__container">
+                <!-- top content -->
+
+                <div class="about__top">
+                    <div class="about__content-left">
+                        <!-- <picture>
+                            <source srcset="/images/about-bg.webp 1x" type="image/webp" />
+                            <source srcset="/images/about-bg@2x.webp 2x" type="image/webp" />
+                            <source srcset="/images/about-img-tablet.jpg" type="/image/jpg" media="(max-width: 689px) 289px" />
+
+                          </picture> -->
+                        <img class="about__content-left-img" srcset="/images/about-bg.jpg 1x, /images/about-bg@2x.jpg 2x" src="/images/about-bg.jpg" alt="" />
+                        <img class="about__content-left-img-tablet" src="/images/about-img-tablet.jpg" alt="" />
+                        <img class="about__content-left-img-mobile" src="/images/about-img-mobile.jpg" alt="" />
+                    </div>
+                    <div class="about__content-right">
+                        <h2 class="about__content-right-heading">About Me</h2>
+                        <p class="about__content-right-desc">
+                            I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever
+                            tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run
+                            or cycling. I’d love you to check out my work.
+                        </p>
+                        <button class="button">GO TO PORTFOLIO</button>
+                    </div>
+                </div>
+
+                <!-- bottom content -->
+
+                <div class="about__bottom">
+                    <h3 class="about__bottom-heading">
+                        Interested in doing a project together?
+                    </h3>
+
+                    <div class="about__bottom-line"></div>
+
+                    <button class="button">CONTACT ME</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <a href="#" class="footer__logo">
+                <img src="/images/footer-logo.svg" alt="" class="footer__logo-img" />
+            </a>
+
+            <nav class="nav footer__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./partfollio.index.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./forum.html">CONTACT ME</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="footer__list">
+                <a class="footer__list-item" href="#">
+                    <img src="/images/footer-github.svg" alt="an icon of gitHub" />
+                </a>
+                <a class="footer__list-item" href="#">
+                    <img src="/images/footer-twitter.svg" alt="an icon of twitter" />
+                </a>
+                <a class="footer__list-item" href="#">
+                    <img src="/images/footer-linkedin.svg" alt="an icon of linkedin" />
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="/index.js"></script>
+</body>
+
+</html>
